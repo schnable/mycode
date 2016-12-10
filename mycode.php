@@ -17,6 +17,7 @@ class mycode
     public static function init()
     {
         // error_log("mycode::init");
+
         add_action('woocommerce_payment_complete', array(__CLASS__,'process_order'), 10, 1);
         add_filter('woocommerce_login_redirect',   array(__CLASS__,'login_redirect'));
     }
