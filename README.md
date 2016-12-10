@@ -7,7 +7,7 @@ This plugin will:
 2. hook the process order for premium content purchases
 3. validate subscription expiry upon site access by logged in user
 
-The customization for an order shall:
+The order customization for a premium content purchase shall:
 
 1. enable the "premium_subscriber" role for the user purchasing a premium subscription
 2. set a subscription expiry date for the user
