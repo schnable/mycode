@@ -5,7 +5,7 @@ This plugin will:
 
 1. redirect the user to the main page after login
 2. hook the process order for premium content purchases
-3. validate subscription expiry after login
+3. validate subscription expiry upon site access by logged in user
 
 The customization for an order shall:
 
